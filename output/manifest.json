@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "launch",
+    "eyebrow": "WELCOME TO THE DEPARTMENT",
+    "headline": "SPORTS NEVER CLOCK OUT.",
+    "deck": "News. Arguments. Rankings. Receipts.",
+    "accent": "#a8ff3e",
+    "caption": "The Ball Dept is officially open. Daily sports news, arguments, rankings and receipts. Get a $250 bonus on Fliff with code 4F273. 18+",
+    "image": "launch.jpg"
+  },
+  {
+    "slug": "pca-three-homers",
+    "eyebrow": "MLB • LAST NIGHT",
+    "headline": "PCA LEFT THE YARD THREE TIMES.",
+    "deck": "Pete Crow-Armstrong powered Chicago's 17-run explosion. Is he already one of baseball's most dangerous players?",
+    "accent": "#55c8ff",
+    "caption": "Pete Crow-Armstrong launched three home runs as Chicago erupted for 17 runs. Where does PCA rank among baseball's most dangerous players right now? Get a $250 bonus on Fliff with code 4F273. 18+",
+    "image": "pca-three-homers.jpg"
+  },
+  {
+    "slug": "nfl-cut-day",
+    "eyebrow": "NFL • ROSTER DEADLINE",
+    "headline": "THE TOUGHEST DAY IN FOOTBALL.",
+    "deck": "Every roster gets cut to 53. Which surprise release deserves another shot immediately?",
+    "accent": "#ffb339",
+    "caption": "NFL rosters are being cut to 53. Which surprise release should be signed immediately? Get a $250 bonus on Fliff with code 4F273. 18+",
+    "image": "nfl-cut-day.jpg"
+  }
+]

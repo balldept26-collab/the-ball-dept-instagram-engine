@@ -1,0 +1,15 @@
+{
+  "name": "the-ball-dept-instagram",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node src/generate-posts.js",
+    "generate:reels": "node src/generate-reels.js",
+    "publish": "node src/publish-buffer.js",
+    "publish:meta": "node src/publish-instagram.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3"
+  }
+}
