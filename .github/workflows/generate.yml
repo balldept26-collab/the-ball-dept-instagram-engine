@@ -1,0 +1,28 @@
+name: Generate Ball Dept posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 14 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install
+      - run: npm run generate
+      - name: Save generated posts
+        run: |
+          git config user.name "The Ball Dept Bot"
+          git config user.email "bot@theballdept.local"
+          git add output
+          git diff --cached --quiet || git commit -m "Generate daily posts"
+          git push
