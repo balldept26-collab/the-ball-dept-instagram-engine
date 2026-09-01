@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 const API_URL = "https://api.buffer.com";
 const apiKey = process.env.BUFFER_API_KEY
   ?.trim()
-  .replace(/^[\u201c\u201d"'`]+|[\u201c\u201d"'`]+$/giu, "");
+  .replace(/[\u201c\u201d"'`\s]/giu, "");
 if (!apiKey) throw new Error("Missing required environment variable: BUFFER_API_KEY");
 
 async function buffer(query, variables = {}) {
@@ -109,7 +109,7 @@ const input = {
   ...(dueAt ? { dueAt } : {}),
 };
 const result = await buffer(query, { input });
-if (result.createPost?.message) {
-  throw new Error(`Buffer publish failed: ${result.createPost.message}`);
+if (result.createPost?.messae) {
+  throw new Error((`Buffer publish failed: ${result.createPost.message}`);
 }
 console.log(`Queued ${reel.slug}: ${result.createPost.post.id}`);
