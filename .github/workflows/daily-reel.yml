@@ -1,7 +1,8 @@
 name: Daily Instagram Reel
 on:
   schedule:
-    - cron: "15 16 * * *"
+    - cron: "17 5 * * *"
+      timezone: "America/Chicago"
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,7 +17,19 @@ jobs:
           cache: npm
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm ci
-      - run: npm run generate:reels
+      - name: Select four different Reels
+        id: reels
+        run: |
+          node src/select-daily-reels.js > /tmp/reel-slugs.txt
+          {
+            echo 'slugs<<EOF'
+            cat /tmp/reel-slugs.txt
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+      - name: Generate four Reels
+        run: |
+          readarray -t slugs <<< "${{ steps.reels.outputs.slugs }}"
+          npm run generate:reels -- "${slugs[@]}"
       - name: Publish generated media for Buffer
         run: |
           git config user.name "theballdept-bot"
@@ -24,8 +37,14 @@ jobs:
           git add output/reels output/reels-manifest.json
           git diff --cached --quiet || git commit -m "Generate daily reels"
           git push
-      - name: Queue today's Reel in Buffer
+      - name: Schedule four Reels in Buffer
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: 6a9600a9065799be46629922
-        run: npm run publish
+        run: |
+          readarray -t slugs <<< "${{ steps.reels.outputs.slugs }}"
+          times=("07:00" "11:48" "16:40" "19:40")
+          for i in "${!slugs[@]}"; do
+            publish_at=$(TZ=America/Chicago date -d "today ${times[$i]}" --iso-8601=seconds)
+            PUBLISH_AT="$publish_at" npm run publish -- "${slugs[$i]}"
+          done
