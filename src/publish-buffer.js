@@ -110,6 +110,6 @@ const input = {
 };
 const result = await buffer(query, { input });
 if (result.createPost?.messae) {
-  throw new Error((`Buffer publish failed: ${result.createPost.message}`);
+  throw new Error(`Buffer publish failed: ${result.createPost.message}`);
 }
 console.log(`Queued ${reel.slug}: ${result.createPost.post.id}`);
