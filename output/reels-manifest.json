@@ -1,100 +1,58 @@
 [
   {
-    "slug": "clutch-gene",
-    "eyebrow": "THE BALL DEPT. DEBATE",
-    "hook": "IS THE CLUTCH GENE REAL?",
+    "slug": "must-win",
+    "eyebrow": "SEASON ON THE LINE",
+    "hook": "WHO ALWAYS SHOWED UP IN MUST-WIN GAMES?",
     "beats": [
-      "Pressure changes everything.",
-      "Some stars get louder.",
-      "Others disappear."
+      "The moment gets heavier.",
+      "Legends get calmer.",
+      "Excuses disappear."
     ],
-    "question": "WHO DO YOU TRUST WITH THE LAST SHOT?",
-    "accent": "#a8ff3e",
-    "video": "reels/clutch-gene.mp4",
-    "caption": "WHO DO YOU TRUST WITH THE LAST SHOT?\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
-  },
-  {
-    "slug": "defense-wins",
-    "eyebrow": "SETTLE THE ARGUMENT",
-    "hook": "DOES DEFENSE STILL WIN TITLES?",
-    "beats": [
-      "Offense sells highlights.",
-      "Stops travel in the playoffs.",
-      "Champions usually do both."
-    ],
-    "question": "OFFENSE OR DEFENSE — PICK ONE.",
-    "accent": "#55c8ff",
-    "video": "reels/defense-wins.mp4",
-    "caption": "OFFENSE OR DEFENSE — PICK ONE.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
-  },
-  {
-    "slug": "prime-player",
-    "eyebrow": "SPORTS FANS ONLY",
-    "hook": "ONE PLAYER. ONE PRIME. ONE GAME.",
-    "beats": [
-      "No second chances.",
-      "Any era is allowed.",
-      "Your season depends on it."
-    ],
-    "question": "WHO ARE YOU TAKING?",
-    "accent": "#ffb339",
-    "video": "reels/prime-player.mp4",
-    "caption": "WHO ARE YOU TAKING?\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
-  },
-  {
-    "slug": "underrated-skill",
-    "eyebrow": "QUICK TAKE",
-    "hook": "THE MOST UNDERRATED SKILL IN SPORTS?",
-    "beats": [
-      "Availability?",
-      "Decision-making?",
-      "Composure under pressure?"
-    ],
-    "question": "DROP YOUR ANSWER BELOW.",
-    "accent": "#ff6f91",
-    "video": "reels/underrated-skill.mp4",
-    "caption": "DROP YOUR ANSWER BELOW.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
-  },
-  {
-    "slug": "comeback",
-    "eyebrow": "NO LEAD IS SAFE",
-    "hook": "WHAT MAKES A GREAT COMEBACK?",
-    "beats": [
-      "One momentum swing.",
-      "A crowd that starts believing.",
-      "A finish nobody forgets."
-    ],
-    "question": "BEST COMEBACK YOU EVER WATCHED?",
-    "accent": "#9f8cff",
-    "video": "reels/comeback.mp4",
-    "caption": "BEST COMEBACK YOU EVER WATCHED?\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
-  },
-  {
-    "slug": "goat-rules",
-    "eyebrow": "BUILD YOUR GOAT CASE",
-    "hook": "RINGS, PEAK, OR LONGEVITY?",
-    "beats": [
-      "Team success matters.",
-      "Dominance matters.",
-      "Staying great matters."
-    ],
-    "question": "WHICH ONE MATTERS MOST?",
-    "accent": "#32e6c4",
-    "video": "reels/goat-rules.mp4",
-    "caption": "WHICH ONE MATTERS MOST?\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
-  },
-  {
-    "slug": "road-game",
-    "eyebrow": "HOME COURT IS GONE",
-    "hook": "WHO DO YOU TRUST ON THE ROAD?",
-    "beats": [
-      "The crowd is against you.",
-      "Momentum is fragile.",
-      "Composure is everything."
-    ],
-    "question": "NAME YOUR ROAD-GAME PLAYER.",
+    "question": "NAME YOUR BIG-GAME PLAYER.",
     "accent": "#ff7b42",
-    "video": "reels/road-game.mp4",
-    "caption": "NAME YOUR ROAD-GAME PLAYER.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
+    "video": "reels/must-win.mp4",
+    "caption": "NAME YOUR BIG-GAME PLAYER.\n\nSend this to the friend who always argues this. Then drop your answer below.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
+  },
+  {
+    "slug": "rule-change",
+    "eyebrow": "FIX THE GAME",
+    "hook": "ONE RULE YOU WOULD CHANGE TODAY?",
+    "beats": [
+      "Make it faster?",
+      "Make it fairer?",
+      "Bring back the old-school game?"
+    ],
+    "question": "WHAT RULE ARE YOU DELETING?",
+    "accent": "#a8ff3e",
+    "video": "reels/rule-change.mp4",
+    "caption": "WHAT RULE ARE YOU DELETING?\n\nSend this to the friend who always argues this. Then drop your answer below.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
+  },
+  {
+    "slug": "best-duo",
+    "eyebrow": "TWO STARS. ONE TEAM.",
+    "hook": "BEST DUO IN SPORTS HISTORY?",
+    "beats": [
+      "Perfect chemistry.",
+      "Different strengths.",
+      "Championship results."
+    ],
+    "question": "WHO IS YOUR ALL-TIME DUO?",
+    "accent": "#55c8ff",
+    "video": "reels/best-duo.mp4",
+    "caption": "WHO IS YOUR ALL-TIME DUO?\n\nSend this to the friend who always argues this. Then drop your answer below.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
+  },
+  {
+    "slug": "choke-or-comeback",
+    "eyebrow": "TWO SIDES OF HISTORY",
+    "hook": "GREAT COMEBACK OR HISTORIC CHOKE?",
+    "beats": [
+      "Momentum changed instantly.",
+      "Pressure exposed somebody.",
+      "Fans still argue about it."
+    ],
+    "question": "WHICH SIDE DESERVES THE CREDIT?",
+    "accent": "#ffb339",
+    "video": "reels/choke-or-comeback.mp4",
+    "caption": "WHICH SIDE DESERVES THE CREDIT?\n\nSend this to the friend who always argues this. Then drop your answer below.\n\nGet up to $250 in bonus bets on Fliff with code 4F273. 18+; terms apply. #ad I may earn rewards from qualifying activity.\n\n#sports #sportsdebate #theballdept #fliff"
   }
 ]
