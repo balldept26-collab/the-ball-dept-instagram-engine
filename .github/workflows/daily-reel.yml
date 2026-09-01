@@ -27,4 +27,5 @@ jobs:
       - name: Queue today's Reel in Buffer
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: 6a9600a9065799be46629922
         run: npm run publish
